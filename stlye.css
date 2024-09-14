@@ -1,0 +1,75 @@
+.doboz{
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+}
+
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+}
+
+.doboz1{
+    align-items: center;
+    justify-content:center;
+}
+
+.zold1,.sarga1{
+    display: none;
+}
+
+
+.doboz2{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.doboz2>li{
+    list-style: none; 
+    margin-right: 5px;
+}
+
+
+
+.doboz3{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doboz3>li{
+    list-style: none
+}
+
+
+
+.doboz4{
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.doboz4>li{
+    list-style: none;
+    margin-left: 5px;
+}
